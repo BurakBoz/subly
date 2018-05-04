@@ -8,9 +8,13 @@ webvtt, ttml, subrip, sbv, json, substationalpha
 # Phar usage
 ./subly.phar -i input.xml -o output.srt
 
-or
+or 
 
 php subly.phar -i input.xml -o output.srt
+
+or on system wide installation
+
+subly -i input.xml -o output.srt
 
 # Input and Output format
 ./subly.phar -i input.xml -if webvtt -o output.srt -of subrip
@@ -18,6 +22,10 @@ php subly.phar -i input.xml -o output.srt
 or
 
 php subly.phar -i input.xml -if webvtt -o output.srt -of subrip
+
+or on system wide installation
+
+subly -i input.xml -if webvtt -o output.srt -of subrip
 
 # System wide installation
 $ sudo mv subly.phar /usr/bin/subly
