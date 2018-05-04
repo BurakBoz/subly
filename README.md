@@ -19,6 +19,9 @@ or
 
 php subly.phar -i input.xml -if webvtt -o output.srt -of subrip
 
+# System wide installation
+$ sudo mv subly.phar /usr/bin/subly
+
 # Credits
 https://github.com/thephpleague/climate
 
