@@ -1,0 +1,6 @@
+{
+    "require": {
+        "captioning/captioning": "2.*",
+        "league/climate": "^3.4"
+    }
+}
